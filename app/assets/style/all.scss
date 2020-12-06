@@ -1,13 +1,16 @@
-$color: #00cc99;
+@import "Bootstrap/scss/bootstrap";
+
+/*
+$color: $primary;
 
 .header {
   height: 200px;
-  background-color: #00cc99;
+  background-color: green;
 }
 
 .footer {
   height: 200px;
-  background-color: #00cc99;
+  background-color: blue;
 }
 
 .box {
@@ -21,3 +24,4 @@ $color: #00cc99;
     background-color: $color;
   }
 }
+*/
