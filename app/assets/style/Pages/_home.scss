@@ -1,0 +1,103 @@
+/*寵物服務，盡在 PETPET*/
+.banner{
+  width: 530px;
+  height: 736px;
+  @include pad(){
+    width: 210px;
+    height: 288px;
+  }
+}
+
+
+/*babysitter*/
+.babysitter {
+  .card{
+    height: 422px;
+    padding: 0;
+    img{
+      border: 1px solid #fff;
+    }
+    &:nth-child(2n){
+      margin: 0 30px;
+    }
+    .card-head{
+      background-size: 100% 70%;
+      background-repeat: no-repeat;
+    }
+    .card-header_1{
+      background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-2.jpeg");
+    }
+    .card-header_2{
+      background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-3.jpeg");
+    }
+    .card-header_3{
+      background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-4.jpeg");
+    }
+    .review span , .order span{
+      font: normal normal bold 28px/42px Noto Sans CJK TC;
+      @include pad(){
+        font: normal normal bold 28px/42px Noto Sans CJK TC;
+      }
+    }
+  }
+}
+
+
+/*reservation*/
+
+.reservation_list{
+  .card{
+    height: 350px;
+    @include pad(){
+      height: 210px;
+    }
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+  a{
+    font: normal normal bold 24px/36px Noto Sans CJK TC;
+  }
+  .reservation_bg_01{
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-5.jpeg");
+    background-position: left;
+  }
+  .reservation_bg_02{
+    background-position: right;
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-6.jpeg");
+  }
+  .reservation_bg_03{
+    height: 49%;
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-7.jpeg");
+  }
+  .reservation_bg_04{
+    height: 49%;
+    background-position: center;
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-8.jpeg");
+  }
+  .reservation_bg_05{
+    background-position: center;
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-3.jpeg");
+  }
+}
+
+
+
+
+
+
+
+.banner_b{
+  height: 584px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-9.jpeg");
+  li{
+    border-left: 2px solid #fff;
+    height: 180px;
+  }
+  span{
+    font: normal normal bold 48px/72px Noto Sans CJK TC;
+  }
+}

@@ -1,27 +1,7 @@
 @import "Bootstrap/scss/bootstrap";
-
-/*
-$color: $primary;
-
-.header {
-  height: 200px;
-  background-color: green;
-}
-
-.footer {
-  height: 200px;
-  background-color: blue;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
-*/
+@import "Ulti/grid";
+@import "Helpers/font";
+@import "Component/logo";
+@import "Layout/header";
+@import "Layout/footer";
+@import "Pages/home";

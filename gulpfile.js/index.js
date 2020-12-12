@@ -81,6 +81,7 @@ function browser() {
     server: {
       baseDir: envOptions.browserDir,
     },
+    browser: "google chrome",
     port: 8080,
   });
 }
@@ -113,3 +114,4 @@ exports.clean = clean;
 exports.build = gulp.series(clean, copyFile, layoutHTML, sass, babel, vendorsJs);
 
 exports.default = gulp.series(clean, copyFile, layoutHTML, sass, babel, vendorsJs, gulp.parallel(browser, watch));
+
