@@ -1,11 +1,18 @@
 /*寵物服務，盡在 PETPET*/
 .banner{
-  width: 530px;
-  height: 736px;
-  @include pad(){
+  @include media-breakpoint-down(xs){
+    width: 100%;
+  }
+  @include media-breakpoint-down(sm){
     width: 210px;
     height: 288px;
   }
+  @include media-breakpoint-down(md){
+    width: 210px;
+    height: 288px;
+  }
+  width: 530px;
+  height: 736px;
 }
 
 
@@ -35,7 +42,7 @@
     }
     .review span , .order span{
       font: normal normal bold 28px/42px Noto Sans CJK TC;
-      @include pad(){
+      @include media-breakpoint-down(md){
         font: normal normal bold 28px/42px Noto Sans CJK TC;
       }
     }
@@ -48,7 +55,7 @@
 .reservation_list{
   .card{
     height: 350px;
-    @include pad(){
+    @include media-breakpoint-down(md){
       height: 210px;
     }
     background-size: cover;
@@ -67,17 +74,28 @@
     background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-6.jpeg");
   }
   .reservation_bg_03{
-    height: 49%;
+    height: 48%;
+    @include media-breakpoint-down(md) {
+      height: 100%;
+    }
     background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-7.jpeg");
   }
   .reservation_bg_04{
-    height: 49%;
+    height: 48%;
+    @include media-breakpoint-down(md) {
+      height: 100%;
+    }
     background-position: center;
     background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-8.jpeg");
   }
   .reservation_bg_05{
     background-position: center;
     background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-3.jpeg");
+  }
+  .reservation_2col{
+    @include media-breakpoint-down(xs) {
+      height: 428px;
+    }
   }
 }
 
@@ -96,6 +114,10 @@
   li{
     border-left: 2px solid #fff;
     height: 180px;
+    @include media-breakpoint-down(md) {
+      height: 100px;
+      margin-bottom: 20px;
+    }
   }
   span{
     font: normal normal bold 48px/72px Noto Sans CJK TC;
