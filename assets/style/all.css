@@ -4204,10 +4204,10 @@ input[type=button].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: #ffc107;
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: #ffc107;
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.5);
@@ -10983,7 +10983,7 @@ body {
 h2 {
   font: normal normal bold 40px/60px Noto Sans CJK TC;
 }
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
   h2 {
     font: normal normal bold 32px/48px Noto Sans CJK TC;
   }
@@ -10992,7 +10992,7 @@ h2 {
 h3 {
   font: normal normal bold 32px/48px Noto Sans CJK TC;
 }
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
   h3 {
     font: normal normal bold 32px/48px Noto Sans CJK TC;
   }
@@ -11001,7 +11001,7 @@ h3 {
 h4 {
   font: normal normal bold 24px/36px Noto Sans CJK TC;
 }
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
   h4 {
     font: normal 20px/30px Noto Sans CJK TC;
   }
@@ -11010,7 +11010,7 @@ h4 {
 p {
   font: normal 20px/30px Noto Sans CJK TC;
 }
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
   p {
     font: normal normal normal 16px/24px Noto Sans CJK TC;
   }
@@ -11038,7 +11038,18 @@ span {
   width: 530px;
   height: 736px;
 }
-@media (max-width: 768px) {
+@media (max-width: 575.98px) {
+  .banner {
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .banner {
+    width: 210px;
+    height: 288px;
+  }
+}
+@media (max-width: 991.98px) {
   .banner {
     width: 210px;
     height: 288px;
@@ -11072,7 +11083,7 @@ span {
 .babysitter .card .review span, .babysitter .card .order span {
   font: normal normal bold 28px/42px Noto Sans CJK TC;
 }
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
   .babysitter .card .review span, .babysitter .card .order span {
     font: normal normal bold 28px/42px Noto Sans CJK TC;
   }
@@ -11085,7 +11096,7 @@ span {
   overflow: hidden;
   background-repeat: no-repeat;
 }
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
   .reservation_list .card {
     height: 210px;
   }
@@ -11102,17 +11113,32 @@ span {
   background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-6.jpeg");
 }
 .reservation_list .reservation_bg_03 {
-  height: 49%;
+  height: 48%;
   background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-7.jpeg");
 }
+@media (max-width: 991.98px) {
+  .reservation_list .reservation_bg_03 {
+    height: 100%;
+  }
+}
 .reservation_list .reservation_bg_04 {
-  height: 49%;
+  height: 48%;
   background-position: center;
   background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-8.jpeg");
+}
+@media (max-width: 991.98px) {
+  .reservation_list .reservation_bg_04 {
+    height: 100%;
+  }
 }
 .reservation_list .reservation_bg_05 {
   background-position: center;
   background-image: url("https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-3.jpeg");
+}
+@media (max-width: 575.98px) {
+  .reservation_list .reservation_2col {
+    height: 428px;
+  }
 }
 
 .banner_b {
@@ -11125,6 +11151,12 @@ span {
 .banner_b li {
   border-left: 2px solid #fff;
   height: 180px;
+}
+@media (max-width: 991.98px) {
+  .banner_b li {
+    height: 100px;
+    margin-bottom: 20px;
+  }
 }
 .banner_b span {
   font: normal normal bold 48px/72px Noto Sans CJK TC;
